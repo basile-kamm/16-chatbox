@@ -43,6 +43,16 @@ main {
   flex-flow: column wrap;
 }
 
+main p {
+  border-radius: 12px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+main img {
+  border-radius: 12px;
+}
+
 .systeme {
   align-self: center;
   background-color: var(--red);
@@ -54,15 +64,13 @@ main {
 .left {
   align-self: flex-start;
   background-color: var(--pink); 
-  max-width: 60%; 
   padding: 10px;
+  margin-left: 5px;
 }
 
 .right {
   align-self: flex-end;
   background-color: var(--orange);
-  max-width: 60%; 
   padding: 10px;
-  clip-path: padding-box;
-  clip-path: polygon(0% 0%, 90% 0, 90% 90%, 100% 100%, 51% 100%, 0 100%);
+  margin-right: 5px;
 }
