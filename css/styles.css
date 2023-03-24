@@ -1,7 +1,12 @@
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
-  background: #ddd;
+  background: var(--purple);
+  --red: #b9054b;
+  --orange: #ffc373; 
+  --pink: #f84f83;
+  --purple: #9a80ce; 
+  font-family: 'Rubik', sans-serif;
 }
 
 img {
@@ -12,7 +17,7 @@ img {
 .header {
   display: flex;
   flex-direction: row;
-  background-color: aqua;
+  background-color: var(--red);
   align-items: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -29,5 +34,7 @@ img {
   font-size: 25px;
   margin: 0;
   padding-left: 5px;
+  color: var(--orange);
+  font-family: 'Titan One', cursive;
 }
 
