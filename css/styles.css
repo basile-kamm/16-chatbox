@@ -14,13 +14,15 @@ img {
   max-width: 100%;
 }
 
-.header {
+.header,
+footer {
   display: flex;
   flex-direction: row;
   background-color: var(--red);
   align-items: center;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  justify-content: space-evenly;
+  color: var(--orange);
+  font-family: 'Titan One', cursive;
 }
 
 .profil-picture {
@@ -33,20 +35,25 @@ img {
 .profil-name {
   font-size: 25px;
   margin: 0;
-  padding-left: 5px;
-  color: var(--orange);
-  font-family: 'Titan One', cursive;
+  padding: 0 50px;
 }
+
+.svg {
+  max-width: 30px;
+}
+
 
 main {
   display: flex;
   flex-flow: column wrap;
+  margin-bottom: 20px;
 }
 
 main p {
   border-radius: 12px;
   max-width: 75%;
   word-wrap: break-word;
+  margin: 2px;
 }
 
 main img {
@@ -59,6 +66,7 @@ main img {
   padding: 6px 10px;
   border-radius: 5px;
   color: var(--orange);
+  margin-top: 10px;
 }
 
 .left {
