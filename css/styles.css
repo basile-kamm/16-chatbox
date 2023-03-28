@@ -6,7 +6,8 @@ body {
   --orange: #ffc373; 
   --pink: #f84f83;
   --purple: #9a80ce; 
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
 }
 
 img {
@@ -38,6 +39,7 @@ header {
   font-size: 25px;
   margin: 0;
   padding: 0 50px;
+  font-family: droog, sans-serif; 
 }
 
 .svg {
@@ -73,6 +75,7 @@ main p {
   border-radius: 5px;
   color: var(--orange);
   margin: 10px 0;
+  font-family: droog, sans-serif; 
 }
 
 .left {
