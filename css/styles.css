@@ -50,7 +50,7 @@ main {
   margin-bottom: 20px;
 }
 
-main p {
+main div {
   border-radius: 12px;
   max-width: 75%;
   word-wrap: break-word;
