@@ -50,7 +50,6 @@ header {
 main {
   display: flex;
   flex-flow: column wrap;
-  margin-bottom: 20px;
 }
 
 main div {
@@ -90,9 +89,19 @@ main p {
   margin-bottom: 0px;
 }
 
+.left:last-of-type {
+  margin-bottom: 5px;
+}
+
 .right {
   align-self: flex-end;
   background-color: var(--orange);
   padding: 10px;
   margin-right: 5px;
+}
+
+.right::after {
+  background: blue;
+  width: 10px;
+  height: 10px;
 }
