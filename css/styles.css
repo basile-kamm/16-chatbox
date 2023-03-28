@@ -14,8 +14,7 @@ img {
   max-width: 100%;
 }
 
-.header,
-footer {
+.header {
   display: flex;
   flex-direction: row;
   background-color: var(--red);
